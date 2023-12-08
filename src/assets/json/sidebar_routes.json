@@ -1,0 +1,14 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/dashboard",
+        "icon": "bx bx-home-alt",
+        "id": 1
+    },
+    {
+        "display_name": "Products",
+        "route": "/products",
+        "icon": "bx bx-package",
+        "id": 2
+    }
+]

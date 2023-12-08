@@ -1,0 +1,84 @@
+.inputFields {
+    display: none;
+}
+
+.custom-file-upload {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    padding: 4px;
+    cursor: pointer;
+    background: #BBCE00;
+    margin-bottom: 10px;
+}
+.custom-file-upload1 {   
+    display: inline-block;
+    position: relative;
+    padding: 4px;
+    cursor: pointer;
+    background: #BBCE00;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.img-wrap {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.img-wrap1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.img-upload:before {
+    content: url(../img/uploads.png);
+    /* font-size: 90px; */
+    position: absolute;
+    background-color: #fff;  
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+  
+.img-upload1:hover:before {
+    opacity: 1;
+}
+.img-upload1:before {
+    content: url(../img/uploads.png);
+    /* font-size: 90px; */
+    position: absolute;
+    background-color: #fff;
+    width: 20px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+}
+  
+.img-upload:hover:before {
+    opacity: 1;
+}
+/* 
+.profileimg {
+    width: 100%;
+    height: 100%;
+} */
+.img-wrap img{
+    width: 100%;
+    height: 100%;
+}
+.uploadText{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif !important;
+}
+.imagesProfile{
+    width: 100%;
+}

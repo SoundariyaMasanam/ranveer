@@ -1,0 +1,170 @@
+.searchable-items.grid .items {
+    margin-bottom: 30px;
+    border-radius: 6px;
+    width: 100%;
+    color: #0e1726;
+    transition: all 0.35s ease;
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.searchable-items.grid {
+    padding: 0px;
+    background: transparent;
+    box-shadow: none;
+}
+
+.searchable-items.grid .items .item-content {
+    background-color: #fff;
+    padding: 13px 18px;
+    box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.09019607843137255), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: #2196f3;
+}
+
+.badge {
+    font-weight: 500 !important;
+    line-height: 1.4 !important;
+    padding: 7px 7px !important;
+    font-size: 12px !important;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    vertical-align: baseline;
+    border-radius: 0.25rem !important;
+}
+
+.searchable-items.grid .items .user-meta-info {
+    margin-top: 10px;
+}
+
+a.btn.btn-sm.btn-dark.mybtn {
+    padding: 0.4375rem 1.25rem;
+}
+
+.btn-dark {
+    color: #fff !important;
+    background-color: #3b3f5c !important;
+    border-color: #3b3f5c !important;
+}
+
+.card-box {
+    background-color: #fff;
+    padding: 1.4rem 1.2rem;
+    /* box-shadow: 0 0.75rem 6rem rgba(56, 65, 74, 0.15); */
+    box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.09019607843137255), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06);
+    /* margin-bottom: 25px; */
+    border-radius: 0.25rem;
+}
+
+.btn-dark:hover {
+    color: #fff !important;
+    background-color: #3b3f5c;
+    box-shadow: none;
+    border-color: #3b3f5c;
+}
+
+.annualTitles {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    color: #515365;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper .ant-table-tbody>tr>td {
+    position: relative;
+    /* padding: 12px 8px !important; */
+    overflow-wrap: break-word;
+    font-size: 13px !important;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper .ant-table-column-title {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    font-size: 12px !important;
+    color: #1b4d70 !important;
+    font-weight: 700 !important;
+}
+
+th.ant-table-cell {
+    font-size: 13px !important;
+    color: #1b4d70 !important;
+    font-weight: 700 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper .ant-table-thead>tr>th,
+:where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper .ant-table-tbody>tr>th,
+:where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper .ant-table-tbody>tr>td,
+:where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper tfoot>tr>th,
+:where(.css-dev-only-do-not-override-htwhyh).ant-table-wrapper tfoot>tr>td {
+    position: relative;
+    padding: 16px 10px !important;
+    overflow-wrap: break-word;
+    font-size: 13px !important;
+}
+
+.btn-outline-success {
+    --bs-btn-hover-bg: #1b4d70 !important;
+    --bs-btn-color: #1b4d70 !important;
+    --bs-btn-border-color: #1b4d70 !important;
+}
+
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-carousel .slick-dots li.slick-active button {
+    background: #bbce00 !important;
+    opacity: 1;
+}
+
+.dataNotfound {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.headingEvent {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    background: rgb(0 0 0 / 70%);
+    position: absolute;
+    bottom: 80px;
+    margin-left: 50px;
+    z-index: 10;
+    padding: 6px 30px 10px 33px;
+    font-size: 20px;
+}
+
+.headingBtnEvent {
+    margin: 0;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    margin-left: 20px;
+    z-index: 10;
+    padding: 6px 12px 10px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #BBCE00;
+    cursor: pointer
+}
+
+.exhibitionBannerCard {
+    position: relative;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+}

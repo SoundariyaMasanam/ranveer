@@ -1,0 +1,36 @@
+.layout-spacing {
+    padding-bottom: 25px;
+}
+
+.widget {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08),
+        0 1px 20px 0 rgba(0, 0, 0, 0.07),
+        0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+}
+.widget-chart-one .widget-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widget .widget-heading {
+    margin-bottom: 15px;
+}
+.widget h5 {
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    color: #515365;
+}
+.widget .widget-content {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}

@@ -1,0 +1,235 @@
+.banner-style-5 {
+    background-image: url(../img/cloud-1.png);
+    position: relative;
+    z-index: 1;
+}
+
+.banner-style-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x !important;
+    /* background-position: -1920px 100% !important; */
+    z-index: 1;
+    animation: cloudMove 30s linear 0s infinite;
+    /* mix-blend-mode: luminosity;
+    opacity: 0.7; */
+}
+
+@keyframes cloudMove {
+    0% {
+        background-position: -1920px 100%;
+    }
+
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+.banner-image {
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 3000ms;
+    transition: opacity 2000ms ease, color 500ms ease, background 500ms ease, -webkit-transform 2000ms ease;
+    transition: transform 2000ms ease, opacity 2000ms ease, color 500ms ease, background 500ms ease;
+    transition: transform 2000ms ease, opacity 2000ms ease, color 500ms ease, background 500ms ease, -webkit-transform 2000ms ease;
+}
+
+.float-bob-y {
+    -webkit-animation-name: float-bob-y;
+    animation-name: float-bob-y;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes float-bob-y {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes float-bob-y {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.bg-images {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+/* .banner-style-5 .wrapper {
+    height: 785px;
+} */
+
+.banner-style-5 .banner-image {
+    bottom: 0;
+    position: absolute;
+    right: 13%;
+}
+
+.spin-loader {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.error.d-block {
+    color: red;
+}
+
+@media only screen and (max-width: 1650px) {
+    .banner-style-5 .banner-image {
+        right: -3%;
+    }
+}
+
+.banner-style-5 .banner-image img {
+    width: 550px;
+    /* margin-left: 85px; */
+    margin-bottom: 30%;
+    margin-right: 20px;
+}
+
+.login-form-box {
+    border-radius: 10px;
+    padding: 12px 40px 30px 40px;
+    position: relative;
+}
+
+.checkout-page-style input {
+    background: white;
+    /* border: 1px solid transparent; */
+    border-radius: 5px;
+    color: #6f6b80;
+    color: var(--color-body);
+    font-weight: 500;
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+.boxCheck {
+    width: 300px;
+    margin: 10px 9px;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+button.edu-btn:hover {
+    background: #231f40;
+    color: #fff;
+}
+
+a.edu-btn,
+button.edu-btn {
+    background: #525fe1;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 30px;
+    transition: .4s;
+}
+
+.forget a {
+    text-decoration: none;
+    color: #094D72;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.logincard {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.login.login-with-news-feed {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.news-feed {
+    position: fixed;
+    /* left: 530px; */
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: translateZ(0);
+}
+
+.news-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.login-block {
+    padding: 30px 0;
+    margin: 0 auto;
+    background: url(../img/sign8.png) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.login-block .auth-box {
+    margin: 0px auto 0;
+    max-width: 450px;
+}
+/* .card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+    border: none;
+    margin-bottom: 30px;
+} */

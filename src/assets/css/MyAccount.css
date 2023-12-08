@@ -1,0 +1,170 @@
+.modalBg {
+    height: 130%;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-tabs-top>.ant-tabs-nav,
+:where(.css-dev-only-do-not-override-htwhyh).ant-tabs-bottom>.ant-tabs-nav,
+:where(.css-dev-only-do-not-override-htwhyh).ant-tabs-top>div>.ant-tabs-nav,
+:where(.css-dev-only-do-not-override-htwhyh).ant-tabs-bottom>div>.ant-tabs-nav {
+    margin: 0 0 0px 0 !important;
+}
+
+.ant-tabs-content-holder {
+    background-color: white !important;
+    font-family: 'Poppins', sans-serif
+}
+
+.single-query label {
+    color: #676767;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 50px 12px 100px;
+    vertical-align: top;
+    font-family: 'Poppins', sans-serif
+}
+
+.single-query>input[type="text"] {
+    border: 1px solid rgba(229, 229, 229, 1);
+    border-radius: 0;
+    height: 48px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    transition: all 0.3s ease 0s;
+    width: 350px;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+}
+
+.single-query1 label {
+    color: #676767;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 50px 12px 50px;
+    vertical-align: top;
+    font-family: 'Poppins', sans-serif
+}
+
+.single-query1>input[type="text"] {
+    border: 1px solid rgba(229, 229, 229, 1);
+    border-radius: 0;
+    height: 48px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    transition: all 0.3s ease 0s;
+    width: 350px;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+}
+
+.single-query1>input[type="text"] ::placeholder {
+    color: #b6b6b6;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #bbce00 !important;
+    text-shadow: 0 0 0.25px currentcolor;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-tabs>.ant-tabs-nav .ant-tabs-nav-list,
+:where(.css-dev-only-do-not-override-htwhyh).ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-list {
+    position: relative;
+    display: flex;
+    transition: opacity 0.3s;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.modal-80w {
+    min-width: 80% !important
+}
+
+:where(.css-htwhyh)[class^="ant-popover"],
+:where(.css-htwhyh)[class*=" ant-popover"] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 40% !important;
+    padding-right: 20px !important;
+}
+
+.react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;  
+    background: #FFFFFF;
+    border: 1px solid rgba(229, 229, 229, 1) !important;
+    border-radius: 5px;
+    line-height: 25px;
+    height: 48px !important;
+    width: 100% !important;
+    outline: none;
+    padding-left: 45px !important;
+}
+
+@media (max-width: 767px) {
+    .single-query label {
+        color: #676767;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+        vertical-align: top;
+        font-family: 'Poppins', sans-serif;
+        /* display: flex;
+        justify-content: center; */
+    }
+
+    .single-query>input[type="text"] {
+        border: 1px solid rgba(229, 229, 229, 1);
+        border-radius: 0;
+        height: 48px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        transition: all 0.3s ease 0s;
+        width: 0px;
+        background: #fff;
+        font-family: 'Poppins', sans-serif;
+        float: none;
+    }
+    .keyword-input {
+        height: 48px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(229, 229, 229, 1);
+        margin: 10px;
+        padding: 11px;
+    
+    }
+    .react-tel-input .form-control {
+        position: relative;
+        font-size: 14px;
+        letter-spacing: .01rem;  
+        background: #FFFFFF;
+        border: 1px solid rgba(229, 229, 229, 1) !important;
+        border-radius: 5px;
+        line-height: 25px;
+        height: 48px !important;
+        width: 100% !important;
+        outline: none;
+        padding-left: 45px !important;
+        margin: 10px;
+    }
+}
+
+.keyword-input {
+    height: 48px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(229, 229, 229, 1);
+    padding: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    :where(.css-htwhyh)[class*=" ant-popover"], :where(.css-htwhyh)[class^=ant-popover] {
+        box-sizing: border-box;
+        font-family: Poppins,sans-serif;
+        font-size: 14px;
+        padding-right: 20px!important;
+        width: 100%!important;
+    }
+}

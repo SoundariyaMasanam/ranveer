@@ -1,0 +1,320 @@
+.layout-px-spacing {
+    padding: 0 20px 0 0px !important;
+    min-height: calc(100vh - 170px) !important;
+}
+
+.layout-pxx-spacing {
+    padding: 0 20px 0 0px !important;
+}
+
+.layout-top-spacing {
+    margin-top: 20px;
+}
+
+.widget-content.searchable-container.grid {
+    width: 100%;
+}
+
+.card-box {
+    background-color: #fff;
+    padding: 1.2rem 1.2rem;
+    box-shadow: 0 0.75rem 6rem rgba(56, 65, 74, 0.15);
+    /* margin-bottom: 25px; */
+    border-radius: 0.25rem;
+}
+
+
+
+.filtered-list-search form>div {
+    position: relative;
+}
+
+.filtered-list-search form i.la-search {
+    position: absolute;
+    color: #989898;
+    left: 11px;
+    top: 4px;
+    font-size: 18px;
+}
+
+.filtered-list-search form input.search-form-control {
+    border: 1px solid #eaeaec !important;
+    width: 100%;
+    font-size: 13px !important;
+    background-color: #eaeaec;
+    border-radius: 30px !important;
+    color: #989898 !important;
+    padding: 0px 4px 0px 40px !important;
+    height: 36px;
+    font-weight: 500;
+}
+
+button.cancel.btn.btn-primary {
+    background-color: #e34848 !important;
+    border-color: #e34848 !important;
+    padding: 6px;
+}
+
+.cancel svg {
+    padding: 0px;
+    margin: -2px 5px 0px 0px;
+}
+
+.member-search {
+    background-color: #d1cbcb;
+    color: #1f1c4c;
+    margin: auto;
+    padding: 0;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.member-search ul {
+    padding: 0px 8px;
+}
+
+.member-search li {
+    list-style: none;
+    padding: 6px 0;
+    margin: auto;
+}
+
+@media (min-width: 1200px) {
+    .col-xl-10 {
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+}
+
+@media (min-width: 576px) {
+    .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle;
+    }
+}
+
+input.form-control {
+    font-size: 14px;
+    padding: 0.75rem 1rem;
+}
+
+.search-form-control {
+    border-radius: 0.25rem;
+}
+
+.contact-options a.s-o {
+    color: #2f44b2;
+    font-size: 19px;
+    font-weight: 700;
+    height: 33px;
+    width: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.dashboardSearch {
+    width: 800;
+    background-color: "#eaeaec"
+}
+
+.contact-options a.s-o {
+    color: #2f44b2;
+    font-size: 19px;
+    font-weight: 700;
+    height: 33px;
+    width: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.sort {
+    color: black;
+    margin-top: 10px;
+}
+
+.sortArrow {
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .dashboardSearch {
+        width: 20rem;
+    }
+
+    .filtered-list-search form input.search-form-control {
+        border: 1px solid #eaeaec !important;
+        width: 100%;
+        font-size: 13px !important;
+        background-color: #eaeaec;
+        border-radius: 30px !important;
+        color: #989898 !important;
+        padding: 0px 4px 0px 40px !important;
+        height: 36px;
+        font-weight: 500;
+    }
+
+    .layout-px-spacing {
+        padding: 20px !important;
+        min-height: calc(100vh - 170px) !important;
+    }
+
+}
+
+.fc-view-harness.fc-view-harness-active {
+    background-color: white !important;
+}
+
+.fc .fc-daygrid-day-number {
+    padding: 4px;
+    position: relative;
+    z-index: 4;
+    color: #1b4d70 !important;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: rgb(180 202 68 / 47%) !important
+}
+
+.calenderIcon {
+    background-color: #1b4d70;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+.calenderIconMain {
+    color: white;
+    font-size: 16px;
+}
+
+.modal-content {
+    background-color: #eae7e7 !important;
+
+}
+
+.modal-header {
+    border-bottom: var(--bs-modal-header-border-width) solid #cbcbcb !important;
+    background-color: #bbce00 !important;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.05rem rgb(13 38 56 / 69%) !important;
+}
+
+.modal-90w {
+    min-width: 50%
+}
+
+.ql-container.ql-snow {
+    background-color: white !important;
+}
+
+span.ant-select-clear {
+    /* margin-right: 5px !important; */
+    background-color: rgb(247 246 246) !important;
+    width: 30px !important;
+}
+
+#end-component {
+    display: none !important;
+}
+
+#react-time-range #start-component {
+    display: flex !important;
+    flex-direction: row !important;
+    overflow: auto;
+    padding: 5px;
+}
+
+#react-time-range {
+    padding: 0px !important
+}
+
+button.submitMeeting.btn.btn-primary {
+    background-color: #1b4d70 !important;
+}
+
+button.btn.btn-secondary.disabled.btn.btn-primary {
+    background-color: #949292 !important;
+}
+
+.fc .fc-toolbar-title {
+    font-size: 18px !important;
+}
+
+.meetTime {
+    color: grey;
+    font-weight: 900;
+}
+
+.meetTitle1 {
+    font-size: 10px;
+    /* margin-top: 20px; */
+}
+
+.meetTitle {
+    font-size: 12px;
+    width: 110px !important;
+    overflow-wrap: break-word !important;
+    text-wrap: balance;
+    /* word-break:break-all; */
+}
+
+@media (max-width: 767px) {
+    .fc .fc-toolbar-title {
+        font-size: 18px !important;
+    }
+
+    .meetTime {
+        color: grey;
+        font-weight: 900;
+        font-size: 6px;
+    }
+
+    .fc .fc-daygrid-day-number {
+        padding: 4px;
+        position: relative;
+        z-index: 4;
+        color: #1b4d70 !important;
+        font-size: 9px;
+    }
+
+    .meetTitle {
+        font-size: 6px;
+        width: 33%;
+        /* word-break:break-all; */
+    }
+
+    p.parameet {
+        white-space: break-spaces;
+        margin-bottom: 0.3rem !important;
+    }
+
+    .meetTitle1 {
+        font-size: 6px;
+        width: 33%;
+    }
+}

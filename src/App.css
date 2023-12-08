@@ -1,0 +1,54 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-schedule/styles/material.css";
+
+.header {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: white;
+  }
+  
+  .sidebar {
+    position: absolute;
+    left: -15vw;
+    height: 100%;
+    width: 16vw;
+    transition: left 0.3s ease-in-out;
+    background-color: white;
+    
+  }
+  .Sidemenu{
+    width: 280px;
+  }
+  .sidebar-toggle {
+    position: absolute;
+    top: 20%;
+    right: -60px;
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+  }
+  .content {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    transition: left 0.3s ease-in-out;
+    background-color: lightgray;
+  }
+  .sidebar.open {
+    left: 0;
+  }
+  .content.open {
+    left: 15vw;
+  }
+  

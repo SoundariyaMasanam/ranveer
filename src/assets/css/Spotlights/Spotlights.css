@@ -1,0 +1,216 @@
+.w-100 {
+    width: 100% !important;
+}
+
+.company-detail-container .company-info .name {
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #515365;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.company-info .ts_Para {
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+    color: #515365;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-start-start-radius: 0;
+    border-start-end-radius: 35px !important;
+    border-end-end-radius: 35px !important;
+    border-end-start-radius: 0;
+}
+
+/* .ant-input-search :where(.css-dev-only-do-not-override-htwhyh).ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+    border-start-start-radius:  35px !important;
+    border-end-start-radius:  35px !important;
+} */
+:where(.css-dev-only-do-not-override-htwhyh).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    width: 100%;
+    height: 40px !important;
+    padding: 0 11px !important;
+}
+
+input#rc_select_3 {
+    margin-top: 5px !important;
+}
+
+input#rc_select_4 {
+    margin-top: 5px !important;
+}
+
+input#rc_select_5 {
+    margin-top: 5px !important;
+}
+
+span.ant-select-selection-placeholder {
+    line-height: 38px !important;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-input {
+    background-color: #f7f6f6 !important;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-input-affix-wrapper {
+    background-color: #f7f6f6 !important;
+}
+
+.annualTitles {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    color: #515365;
+}
+
+.spin-loader-submission {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    z-index: 10;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-btn-primary {
+    color: #fff;
+    background-color: #1b4d70 !important;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
+button.submitspotlights {
+    height: 40px;
+    /* border-radius: 10px; */
+    background-color: #bbce00c9;
+    border-color: 1px solid #ffff;
+    color: white;
+    box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+    border: 1px solid #1b4d70;
+}
+
+.upload-list-inline .ant-upload-list-item {
+    float: left;
+    width: 200px;
+    margin-inline-end: 8px;
+}
+
+.ant-upload-rtl.upload-list-inline .ant-upload-list-item {
+    float: right;
+}
+
+button.ant-btn.css-dev-only-do-not-override-htwhyh.ant-btn-default {
+    width: 434px !important;
+    height: 38px !important;
+    border: 1px solid #d2d9f8 !important;
+    border: 1px solid #5d67003b !important;
+}
+
+:where(.css-htwhyh).ant-btn {
+    font-size: 14px;
+    height: 38px !important;
+    padding: 4px 15px;
+    border-radius: 6px;
+    /* width: 434px !important; */
+}
+
+
+button.ant-btn.css-htwhyh.ant-btn-text.ant-btn-sm.ant-btn-icon-only.ant-upload-list-item-action {
+    width: fit-content !important;
+}
+
+.submitSpotlight {
+    margin: 4px 0px -11px 30px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    /* margin-left: 100px; */
+    z-index: 10;
+    padding: 6px 12px 10px 12px;
+    font-size: 15px;
+
+}
+
+.btnForsubmitSpotlight {
+    background-image: linear-gradient(#3D94D9, #0067B9);
+    border-color: #006DBC;
+    /* padding: 8px 15px 20px 15px; */
+    color: white;
+    height: 38px;
+}
+
+.widgetNoPad {
+    position: relative;
+    /* padding: 20px; */
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+}
+
+.thumbnailCaroseul {
+    background-size: cover !important;
+    background: no-repeat;
+    background-position: center;
+}
+
+select__menu-list::-webkit-scrollbar {
+    width: 4px;
+    height: 0px;
+}
+
+select__menu-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+select__menu-list::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+select__menu-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (max-width: 767px) {
+    button.ant-btn.css-dev-only-do-not-override-htwhyh.ant-btn-default {
+        width: 100% !important;
+        height: 38px !important;
+        border: 1px solid #d2d9f8 !important;
+        border: 1px solid #5d67003b !important;
+    }
+    .btnForsubmitSpotlight {
+        background-image: linear-gradient(#3D94D9, #0067B9);
+        border-color: #006DBC;
+        /* padding: 8px 15px 20px 15px; */
+        color: white;
+        height: 35px;
+        font-size: 12px;
+    }
+    .submitSpotlight {
+        margin: 4px 0px -39px 0px;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        bottom: 25px;
+        /* margin-left: 100px; */
+        z-index: 10;
+        padding: 6px 12px 10px 12px;
+        font-size: 15px;
+    
+    }
+}
+.conferenceBanners{
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {   
+    .conferenceBanners{
+        height: 130px;
+    }  
+}

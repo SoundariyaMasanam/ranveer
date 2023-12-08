@@ -1,0 +1,145 @@
+.layout-spacing {
+    padding-bottom: 25px;
+}
+
+.widget {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+}
+
+.readmorebtn{
+    background-color: #1B4D70 !important;
+}
+.quick-category-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.quick-category {
+    display: block;
+    width: 100%;
+    transition: all ease 0.5s;
+}
+
+.qc-primary {
+    background: #e6f0ff;
+    color: #1b55e2;
+}
+
+.rounded-circle1 {
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+}
+
+.quick-category:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all ease 0.5s;
+}
+
+.layout-spacing a {
+    color: #1B4D70 ;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary {
+    background-color: #2f44b2!important;
+    border-color: #2f44b2;
+    color: #fff!important;
+}
+
+span.quick-category-icon {
+    font-size: 30px;
+    display: flex;
+    /* padding: 5px; */
+}
+
+.quick-category-content h3 {
+    color: #3b3f5c;
+}
+
+.font-17 {
+    font-size: 17px;
+}
+
+.mytext-primary {
+    color: #2f44b2 !important;
+}
+
+i.fa.fa-paper-plane-o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+    margin-left: 8px;
+}
+
+.qc-warning {
+    background: #ffebd2;
+    color: #e2a03f;
+}
+
+.mytext-warning {
+    color: #e2a03f !important;
+}
+
+i.las.la-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+    margin-left: 13px;
+    font-size: 24px;
+}
+
+i.fa.fa-handshake-o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+    margin-left: 8px;
+    font-size: 35px;
+}
+
+.qc-secondary {
+    background: #dbc4ff;
+    color: #5c1ac3;
+}
+
+.quick-category-content p {
+    margin-top: 0;
+    /* margin-bottom: 0.625rem; */
+    color: #515365;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mytext-secondary {
+    color: #5c1ac3 !important;
+}
+
+.mytext-success-teal {
+    color: #009688 !important;
+}
+
+.qc-success-teal {
+    background: #acfff7;
+    color: #009688;
+}
+
+i.fa.fa-book1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}

@@ -1,0 +1,46 @@
+.main-slider-div {
+    position: absolute;
+    height: 70%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+}
+.slider-card{
+    position: relative;
+    max-width: 50%;
+    min-width: 30%;
+    width: 100vw;
+    height: 100%;
+    background: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+
+}
+.wrapper-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.nav-main-div{
+    position: relative;
+    display: flex;  
+    height: 60px;
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 1rem;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.nav-btn{
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}

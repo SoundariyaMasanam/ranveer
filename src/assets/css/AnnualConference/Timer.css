@@ -1,0 +1,53 @@
+.timer {
+  background-color: rgba(255 252 252 / 28%);
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}
+
+.date_time {
+  width: 25%;
+  float: left;
+}
+
+.boxes {
+  border-right: solid 1px rgb(255 255 255);
+  font-weight: 300;
+  padding: 10px;
+}
+
+.col-4:last-child .boxes {
+  border-right-color: transparent;
+}
+
+.boxes p {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 14px
+}
+
+@media (max-width: 767px) {
+  .boxes p {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .text {
+    font-size: 12px
+  }
+  .timer {
+    background-color: rgba(255 252 252 / 28%);
+    display: inline-block;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+    width: 400px;
+  }
+}

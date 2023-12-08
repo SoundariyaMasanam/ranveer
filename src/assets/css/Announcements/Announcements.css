@@ -1,0 +1,93 @@
+.announcePara {
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+    color: #515365;
+    font-size: 0.875rem;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-group-item-action p {
+    color: #515365;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.announceCard {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+border-radius: 10px;
+}
+
+/* .list-group-items {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem !important;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    height: 120px;
+    margin-top: 25px;
+} */
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+}
+
+.list-group-item-action {
+    width: 100%;
+    color: #495057;
+    text-align: inherit;
+}
+
+.datepicker {
+    padding: 7px 11px !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    border-radius: 35px !important;
+    margin-left: 20px !important;
+    font-family: 'Poppins', sans-serif;
+    width: 200px !important;
+}
+
+.ant-picker-dropdown.css-dev-only-do-not-override-htwhyh.ant-picker-dropdown-placement-bottomRight {
+    padding-top: 10px !important;
+
+}
+
+.onlysearch {
+    border-start-start-radius: 35px !important;
+    border-end-start-radius: 35px !important;
+}
+
+:where(.css-htwhyh).ant-btn-primary {
+    color: #fff;
+    background-color: #1b4d70 !important;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+    /* border-radius:50px !important; */
+}
+
+.ant-input-search :where(.css-htwhyh).ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+    border-start-start-radius: 35px !important;
+    border-end-start-radius: 35px !important;
+    background-color: #f7f6f6 !important;
+}
+
+:where(.css-htwhyh).ant-input-group>.ant-input-affix-wrapper:not(:last-child) .ant-input {
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+    background-color: #f7f6f6 !important;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-picker {
+    background-color: #f7f6f6 !important;
+    color: black !important;
+}
+
+.ant-picker.ant-picker-range.css-htwhyh {
+    height: 40px !important;
+    border-radius: 20px !important;
+    background-color: #f7f6f6 !important;
+}

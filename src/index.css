@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import "~@flaticon/flaticon-uicons/css/all/all";
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Inter','Roboto Condensed',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+body {
+  font-family: 'Poppins', sans-serif !important;
+  /* font-family: 'Kurale', serif !important; */
+  overflow-x: hidden;
+  font-size: 0.875rem;
+}
+.h4{
+  font-size: 1.125rem !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+tbody.ant-table-tbody {
+  font-size: 12px !important;
+}

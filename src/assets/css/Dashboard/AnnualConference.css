@@ -1,0 +1,213 @@
+.confetti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 200px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.confetti-piece {
+    position: absolute;
+    width: 8px;
+    height: 16px;
+    background: #ffd300;
+    top: 0;
+    opacity: 0;
+}
+.confetti-piece:nth-child(1) {
+    left: 7%;
+    transform: rotate(-54deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 450ms;
+    animation-duration: 1137ms;
+}
+.confetti-piece:nth-child(2) {
+    left: 14%;
+    transform: rotate(-41deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 99ms;
+    animation-duration: 809ms;
+}
+.confetti-piece:nth-child(3) {
+    left: 21%;
+    transform: rotate(62deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 281ms;
+    animation-duration: 1093ms;
+}
+  .confetti-piece:nth-child(4) {
+    left: 28%;
+    transform: rotate(-20deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 441ms;
+    animation-duration: 883ms;
+}
+.confetti-piece:nth-child(5) {
+    left: 35%;
+    transform: rotate(-27deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 49ms;
+    animation-duration: 727ms;
+}
+.confetti-piece:nth-child(6) {
+    left: 42%;
+    transform: rotate(-47deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 397ms;
+    animation-duration: 971ms;
+}
+.confetti-piece:nth-child(7) {
+    left: 49%;
+    transform: rotate(-75deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 248ms;
+    animation-duration: 1049ms;
+}
+.confetti-piece:nth-child(8) {
+    left: 56%;
+    transform: rotate(-49deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 88ms;
+    animation-duration: 770ms;
+}
+.confetti-piece:nth-child(9) {
+    left: 63%;
+    transform: rotate(-29deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 239ms;
+    animation-duration: 949ms;
+}
+.confetti-piece:nth-child(10) {
+    left: 70%;
+    transform: rotate(-19deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 307ms;
+    animation-duration: 762ms;
+}
+.confetti-piece:nth-child(11) {
+    left: 77%;
+    transform: rotate(-25deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 279ms;
+    animation-duration: 759ms;
+}
+.confetti-piece:nth-child(12) {
+    left: 84%;
+    transform: rotate(-48deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 404ms;
+    animation-duration: 833ms;
+}
+  .confetti-piece:nth-child(13) {
+    left: 91%;
+    transform: rotate(-44deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 286ms;
+    animation-duration: 796ms;
+}
+.confetti-piece:nth-child(odd) {
+    background: #17d3ff;
+}
+.confetti-piece:nth-child(even) {
+    z-index: 1;
+}
+.confetti-piece:nth-child(4n) {
+    width: 5px;
+    height: 12px;
+    animation-duration: 2000ms;
+}
+.confetti-piece:nth-child(3n) {
+    width: 3px;
+    height: 10px;
+    animation-duration: 2500ms;
+    animation-delay: 1000ms;
+}
+.confetti-piece:nth-child(4n-7) {
+    background: #ff4e91;
+}
+@-webkit-keyframes makeItRain {
+    from {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    to {
+      transform: translateY(200px);
+    }
+}
+@keyframes makeItRain {
+    from {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    to {
+      transform: translateY(200px);
+    }
+}
+.widget h5 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    color: #515365;
+    line-height: 30px;
+}
+.text-muted {
+    color: #888ea8 !important;
+}
+.bg-gradient-primary {
+    background-color: #2f44b2 !important;
+    background: linear-gradient(to right, #373e62 0%, #1d668f 100%);   
+     /* background: linear-gradient(to right #252e5e 0%, #094D72 100%); */
+    border: 0px;
+}
+.bg-gradient-primarys {
+    background-color: #07b0ff !important;  
+    border: 0px;
+}
+.text-white {
+    color: #fff !important;
+}
+@media only screen and (min-width: 1400px) {
+    .bg-gradient-primarys {
+        background-color: #07b0ff !important;  
+        border: 0px;
+        padding: 10px;
+        font-size: 24px;
+    }
+}
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right {
+    z-index: 1 !important;
+}
+button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
+    z-index: 1 !important;
+}
+button.react-multiple-carousel__arrow {
+    background: #1B4D70 !important;
+}
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    .conferenceBanner{
+        width: 100%;
+    }
+    .annualBannerLogo{
+        width: 30%;
+    }
+}
+@media (min-width: 1680px) and (max-width: 1050px)  {
+    .conferenceBanner{
+        width: 100%;
+    }
+    .annualBannerLogo{
+        width: 30%;
+    }
+}
+
+.conferenceBanner{
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+.instantPara {
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+    color: #515365;
+    font-size: 0.875rem;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #e7515a;
+}
+
+.avatar-xxs {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.ml-2 {
+    margin-left: 0.5rem !important;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: green !important;
+}
+
+.annualTitles {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    color: #515365;
+}
+
+td.ant-table-cell {
+    border-bottom: 1px solid #dfd9d9 !important;
+}
+
+.btn-outline-secondary {
+    font-size: 13px !important;
+    padding: 3px !important;
+    width: 100px !important;
+}
+.modal-100w{
+    min-width: 70%
+}

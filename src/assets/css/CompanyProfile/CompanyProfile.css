@@ -1,0 +1,338 @@
+.image-area {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 125px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+}
+
+.image-area .user-image {
+    /* height: 140px;
+    width: 100%; */
+    /* width: 140px;
+    border-radius: 50%; */
+    margin: 0 auto;
+}
+
+.info-area {
+    text-align: center;
+    /* margin-top: 30px; */
+}
+
+.info-area h6 {
+    text-align: center;
+    letter-spacing: 0px;
+    font-weight: 400;
+    /* margin-top: 18px; */
+    /* margin-bottom: 3px; */
+}
+
+/* button.btn.btn-success {
+    color: #fff !important;
+    background-color: #8dbf42;
+    border-color: #8dbf42;
+    padding: 0.4375rem 1.25rem;
+} */
+.btn-success {
+    color: #fff !important;
+    background-color: #BBCE00 !important;
+    border-color: #BBCE00 !important;
+}
+
+button.ant-btn.css-dev-only-do-not-override-htwhyh.ant-btn-default.sendQuoteBtn {
+    width: 151px !important;
+}
+
+button.btn.btn-danger {
+    color: #fff !important;
+    background-color: #e7515a;
+    border-color: #e7515a;
+    padding: 0.4375rem 1.25rem;
+    margin-left: 10px;
+}
+
+.btn-label-right {
+    margin: -0.55rem -0.3rem -0.55rem 0.9rem;
+    padding: 0.6rem 0.9rem;
+    background-color: rgba(50, 58, 70, .1);
+    display: inline-block;
+}
+
+.generalInfoTitle {
+    font-size: 14px;
+}
+
+.single-profile-info.social a {
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.socialmedia {
+    color: #0f79d4 !important;
+    font-size: 30px;
+}
+
+
+/* rightside */
+
+.profile-info .single-profile-info {
+    margin-top: 10px;
+}
+
+.profile-info h6 {
+    font-size: 13px;
+    color: #444;
+    font-weight: 500;
+}
+
+.single-profile-info p {
+    letter-spacing: 0px;
+    font-size: 12px;
+    color: darkgrey;
+}
+
+/* Event */
+.widget .widget-content {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.widget-table-one .weekly-bestsellers {
+    padding: 12px 12px;
+    border-radius: 8px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid #efefef;
+}
+
+.widget-table-one .weekly-bestsellers:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.widget-table-one .weekly-bestsellers .t-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget-table-one .weekly-bestsellers .t-item .t-company-name {
+    display: flex;
+}
+
+.widget-table-one .weekly-bestsellers .t-item .t-icon {
+    margin-right: 12px;
+}
+
+.widget-table-one .weekly-bestsellers .t-item .t-icon .image-container,
+.widget-table-one .weekly-bestsellers .t-item .t-icon .icon-container {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.avatar-xs {
+    height: 1.9rem;
+    width: 1.9rem;
+}
+
+.rounded1-circle {
+    border-radius: 0 !important;
+}
+
+.widget-table-one .weekly-bestsellers .t-item .t-name {
+    align-self: center;
+}
+
+.widget-table-one .weekly-bestsellers .t-item .t-name h4 {
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.widget-table-one .weekly-bestsellers .t-item .t-name .meta-date {
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #888ea8;
+}
+
+.widget-table-one .weekly-bestsellers .t-item .t-rate {
+    align-self: center;
+}
+
+.widget-table-one .weekly-bestsellers .t-item .t-rate.rate-inc p {
+    color: #009688;
+}
+
+.widget-table-one .weekly-bestsellers .t-item .t-rate p {
+    margin-bottom: 0;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+
+.widget-table-one .weekly-bestsellers:hover {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+/* Spotlight */
+.border-lights {
+    border-color: #dee2e6 !important;
+}
+
+.border-bottoms {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.text-primary {
+    color: #2f44b2 !important;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.text-muted {
+    color: #888ea8 !important;
+}
+
+.text-success-teal {
+    color: #BBCE00 !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.mapDiv {
+    /* height: 70vh; */
+    background-size: cover;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: -2px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.3px;
+    height: 10px;
+    width: 10px;
+}
+
+.status.green {
+    border-color: #03fa03;
+    background-color: rgb(3, 250, 3);
+}
+
+.status.red {
+    border-color: #f00000;
+    background-color: #f00000;
+}
+
+.annualTitles {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    color: #515365;
+}
+
+.cityaddress {
+    position: relative;
+    display: inline-block;
+}
+
+.cityaddress .address {
+    width: 130px;
+    background-color: #f0f0f0;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.ant-tooltip-inner {
+    color: white !important;
+    background-color: #1b4d70 !important;
+}
+
+.card-boxes {
+    background-color: #fff;
+    padding: 1rem 1rem;
+    /* box-shadow: 0 0.75rem 6rem rgba(56, 65, 74, 0.15); */
+    box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.09019607843137255), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06);
+    /* margin-bottom: 25px; */
+    border-radius: 0.25rem;
+    font-size: 14px;
+}
+
+select.form-select {
+    width: 180px !important;
+    border-radius: 10px !important;
+    font-size: 12px !important;
+    background-color: #f5f5f5;
+}
+
+select.formGI.form-select.form-select-sm {
+    width: 100% !important;
+}
+
+.websiteLink:hover {
+    color: #0F79D4 !important;
+}
+
+.spotlighttitle {
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #888ea8;
+}
+
+
+@media (max-width: 767px) {
+    select.form-select {
+        width: 100% !important;
+        border-radius: 10px !important;
+        font-size: 12px !important;
+        background-color: #f5f5f5;
+    }
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .talaMap {
+        height: 100%;
+    }
+}
+
+.dashboardSpotlight {
+    border-left-style: solid;
+    border-left-color: #d8d8d8;
+    border-left-width: 1px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 815px) {
+    .dashboardSpotlight {
+        border-left-style: solid;
+        border-left-color: #d8d8d8;
+        border-left-width: 0px;
+        margin-left: 0px;
+    }
+}
